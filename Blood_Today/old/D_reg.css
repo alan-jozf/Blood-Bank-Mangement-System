@@ -1,0 +1,92 @@
+
+body{ 
+	margin:0px;
+	padding:0px;
+	background-image: linear-gradient(rgb(245, 245, 245),rgb(238, 238, 238));
+	/* background-repeat:no-repeat; */
+	background-attachment:fixed;
+}
+
+form{
+    padding: 2px;
+	display: block;
+	margin:auto;
+	margin-top:5%;
+	width:1000px;
+	height:600px;
+}
+
+.container_name{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:99%;
+    /* background-color:gray; */
+    display:block;
+    float:left;
+}
+
+
+.contmiddle{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float:left;
+    width:99%;
+    /* background-color:gray; */
+
+}
+
+.cont_bottom{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float:left;
+    width:66%;
+    /* background-color:gray; */
+}
+.container_name input{
+    position: relative;
+    width:63%;
+    margin:10px;	
+    float:left;
+    height:30px;
+    /* background-color: rgb(175, 175, 175); */
+    /* border:1px solid rgb(107, 107, 107);
+    opacity: 0; */
+}
+.contmiddle input ,select{
+    float:left;
+    margin:10px;	
+    height:30px;
+    position:relative;
+    width:30%;
+}
+
+.cont_bottom input{
+    float:left;
+    margin:10px;	
+    position:relative;
+    width:45%;
+    height:30px;
+}
+.button{
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: auto;
+    /* background-color:gray; */
+    height:10%;
+    width:25%;
+    float:left;
+}
+.button button{
+    height:50px;
+    width:90%;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+}

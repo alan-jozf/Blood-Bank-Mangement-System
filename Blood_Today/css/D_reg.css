@@ -1,0 +1,102 @@
+body{ 
+    /* background-image: linear-gradient(rgb(245, 245, 245),rgb(238, 238, 238)); */
+    background-color:#bbb;
+    background-attachment:fixed;
+    margin: 0px;
+
+}
+
+form{
+    padding:15px;
+    background-color:#bbb;
+	display: block;
+	margin:auto;
+	margin-top:1%;
+	width:500px;
+    height:relative;
+    bottom: 10px;
+}
+
+input[type=text],[type=date],[type=password],[type="submit"],
+        [type=button],[type=time],[type=number],[type=file],select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 17px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],[type=button]{
+    background-color: rgb(12, 146, 0);
+    color: #fff;
+    border-radius: 10px;
+}
+/* .button{
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-bottom: auto;
+    height:10%;
+    width:25%;
+    float:left;
+}
+.button button{
+    height:50px;
+    width:90%;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+} */
+/* .name{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:99%;
+    display:flex;
+    float:left;
+}
+
+ .contmiddle{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float:left;
+    width:99%;
+
+}
+
+.cont_bottom{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float:left;
+    width:66%;
+}
+.container_name input{
+    position: relative;
+    width:63%;
+    margin:10px;	
+    float:left;
+    height:30px;
+}
+.contmiddle input ,select{
+    float:left;
+    margin:10px;	
+    height:30px;
+    position:relative;
+    width:30%;
+}
+
+.cont_bottom input{
+    float:left;
+    margin:10px;	
+    position:relative;
+    width:45%;
+    height:30px;
+} */

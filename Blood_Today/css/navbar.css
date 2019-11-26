@@ -1,0 +1,113 @@
+*{
+	font-family:Helvetica;
+}
+@font-face{
+    font-family: hel;
+    src:url(../assets/heading.ttf);
+}
+.toprow{
+    width:100%;
+    display: block;
+    background-color: #23282E;
+    overflow: hidden;
+    height: 100px;
+}
+        .toprow h1{
+            font-family:hel;
+            float:left;
+            margin-top:20px;
+            margin-left: 30px;
+            font-size: 45px;
+            color: white;
+        }
+        .usericon{
+            float:right;
+            margin:25px;
+            border-radius: 50%;
+            transition: 0.10s ease-out;
+        }
+        .usericon:hover{
+            transform: scale(1.2);
+        }
+        /* .toprow h3{
+            margin-top: 3%;
+            margin-right: 1%;
+            margin-left:20px;
+        } */
+
+.www
+{
+    /* background-color: rgb(24, 55, 230); */
+    display: block;
+    position: absolute;
+    opacity:0px;
+    top:17px;
+    left:500px;
+    right:500px;
+    line-height: 2px;
+    color:white;
+}
+
+
+.dropdown {
+    z-index: 2;
+    display: block;
+    float: right;
+    right:20px;
+    /* margin-top: 0.3%; */
+    position: absolute;
+}
+        .dropbtn {       
+            background-color:#FE5722;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+        }
+        .dropdown-content {
+            display: none;
+            right:0px;
+            position: absolute;
+            background-color: #FE5722;
+            min-width: 120px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 5;
+        }
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: flex;
+        }
+        .dropdown-content a:hover {
+            background-color: rgb(255, 140, 95);
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: rgb(255, 144, 100);
+        }
+
+
+
+.topnav {
+    position:sticky;
+    top:0px;
+    background-color: #FE5722;
+    overflow: hidden;
+    z-index:1;
+    bottom: absolute;
+}
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover {
+            background-color: #F87D4C;
+            color: white;
+        }
